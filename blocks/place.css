@@ -1,0 +1,92 @@
+
+.place{
+  max-width: 987;
+  margin-top: 118px;
+  display: grid;
+  grid-template-rows: auto 460px auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  grid-template-areas:  "title artist" "image paragraph" "button paragraph";
+}
+
+
+.place__website{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: artist;
+}
+
+.place__artist{
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #AAAAAA;
+}
+
+.place__artist-name{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+  .place{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: auto 340px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    grid-template-areas:  "title artist" "image paragraph" "button paragraph";
+  }
+
+
+.place__website{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: artist;
+}
+
+.place__artist{
+  margin-top: auto;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #AAAAAA;
+}
+
+.place__artist-name{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .place{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .place__artist{
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #AAAAAA;
+  }
+
+.place__website{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+  .place__artist-name{
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

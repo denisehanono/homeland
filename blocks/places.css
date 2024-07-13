@@ -5,16 +5,6 @@ margin: auto;
 color: white;
 }
 
-.places__place{
-  max-width: 987;
-  margin-top: 118px;
-  display: grid;
-  grid-template-rows: auto 460px auto;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  grid-template-areas:  "title artist" "image paragraph" "button paragraph";
-}
-
 
 .places__title{
   font-family: "Inter-black";
@@ -22,25 +12,6 @@ margin: 0;
 font-weight: 900;
 font-size: 72px;
 grid-area: title;
-}
-
-.artist{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  grid-area: artist
-}
-
-.artist__heading{
-  margin-top: 0;
-  font-size: 12px;
-  line-height: 14.52px;
-  color: #AAAAAA;
-}
-
-.artist__name{
-  font-size: 18px;
-  line-height: 22px;
 }
 
 
@@ -57,7 +28,7 @@ grid-area: title;
   line-height: 29.34px;
 }
 
-.paragraphs{
+.places__paragraphs{
 grid-area: paragraph;
 }
 
@@ -88,7 +59,7 @@ justify-content: center;
   align-self: baseline;
   }
 
-.button__variation{
+.places__button-variation{
   vertical-align: middle;
 justify-content: center;
   align-content: center;
@@ -104,7 +75,7 @@ justify-content: center;
 
   @media screen and (max-width: 768px){
 
-    .places{
+ .places{
       margin: 0;
       max-width: 720px;
       margin: auto;
@@ -112,41 +83,12 @@ justify-content: center;
       }
     }
 
-    .places__place{
-  margin-top: 50px;
-  display: grid;
-  grid-template-rows: auto 340px auto;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  grid-template-areas:  "title artist" "image paragraph" "button paragraph";
-}
-
-
 .places__title{
   font-family: "Inter-black";
 margin: 0;
 font-weight: 900;
 font-size: 42px;
 grid-area: title;
-}
-
-.artist{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  grid-area: artist
-}
-
-.artist__heading{
-  margin-top: auto;
-  font-size: 12px;
-  line-height: 14.52px;
-  color: #AAAAAA;
-}
-
-.artist__name{
-  font-size: 18px;
-  line-height: 22px;
 }
 
 
@@ -163,7 +105,7 @@ grid-area: title;
   line-height: 26.08px;
 }
 
-.paragraphs{
+.places__paragraphs{
 grid-area: paragraph;
 }
 
@@ -181,7 +123,7 @@ text-align: center;
 align-self: baseline;
 }
 
-.button__variation{
+.places__button-variation{
   grid-area: button;
   width: 248px;
   height: 40px;
@@ -211,11 +153,6 @@ align-self: baseline;
       gap: 12px;
     }
 
-    .places__place{
-      display: flex;
-      flex-direction: column;
-    }
-
   .places__title{
   font-family: "Inter-black";
   margin: 0;
@@ -226,31 +163,12 @@ align-self: baseline;
   width: 288px;
   }
 
-  .artist__heading{
-    margin-top: 0;
-    font-size: 12px;
-    line-height: 14.52px;
-    color: #AAAAAA;
-  }
-
-.artist{
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-  .artist__name{
-    margin: 0;
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-
   .places__image{
     width: 320px;
     height: 320px;
   }
 
-  .paragraphs{
+  .places__paragraphs{
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -275,7 +193,7 @@ align-self: baseline;
   line-height: 16.94px;
   }
 
-  .button__variation{
+  .places__button-variation{
     width: 288px;
   height: 48px;
   font-size: 16px;
@@ -287,5 +205,4 @@ align-self: baseline;
   align-self: center;
   line-height: 16.94px;
   }
-
 }

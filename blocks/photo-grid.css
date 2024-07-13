@@ -1,4 +1,4 @@
-.gallery {
+.photo-grid{
   padding-top: 118px;
   display: grid;
   justify-content: center;
@@ -7,7 +7,7 @@
   gap: 16px;
 }
 
-.gallery__image {
+.photo-grid{
   max-width: 100%;
   max-height: 100%;
 }
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 768px){
 
-  .gallery{
+  .photo-grid{
     display: grid;
     justify-content: center;
     grid-template-columns: 264px 264px;
@@ -32,7 +32,7 @@
 
   @media screen and (max-width: 320px) {
 
-    .gallery{
+    .photo-grid{
 
       display: flex;
       flex-direction: column;

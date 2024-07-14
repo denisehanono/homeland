@@ -34,22 +34,24 @@ grid-area: paragraph;
 
 
 .places__button {
+  grid-area: button;
+  width: 289px;
+  height: 48px;
   vertical-align: middle;
 justify-content: center;
   align-content: center;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   box-shadow: 5px 5px 10px #00000040;
   background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
-  align-self: center;
+  align-self: baseline;
 }
 
 
 .places__button:hover{
-  grid-area: button;
   font-size: 18px;
   color: white;
   box-shadow: 5px 5px 10px #00000040;
@@ -60,6 +62,8 @@ justify-content: center;
   }
 
 .places__button-variation{
+  width: 289px;
+  height: 48px;
   vertical-align: middle;
 justify-content: center;
   align-content: center;
@@ -81,7 +85,6 @@ justify-content: center;
       margin: auto;
       color: white;
       }
-    }
 
 .places__title{
   font-family: "Inter-black";
@@ -134,9 +137,7 @@ align-self: baseline;
   border-radius: 4px;
   text-align: center;
   }
-
-
-
+}
     /* Mobile */
 
     @media screen and (max-width: 320px) {

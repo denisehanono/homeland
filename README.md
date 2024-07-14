@@ -7,7 +7,5 @@
 4.  Enlace a la p�gina de GitHub Pages: https://denisehanono.github.io/web_project_homeland/
 
 Art Gallery by Denise.
-# web_project_homeland
-# web_project_homeland
-# homeland
-# homeland
+
+

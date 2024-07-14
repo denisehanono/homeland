@@ -1,6 +1,6 @@
 1. Galleria de Arte TripleTen
 
-2. La Galería de Arte TripleTen es un espacio virtual donde los miembros de nuestra comunidad pueden presentar sus experiencias y conexiones con sus lugares de origen. Buscamos que te sientas como en casa y que compartas tu perspectiva �nica con nosotros. #Sprint5
+2. La Galería de Arte TripleTen es un espacio virtual donde los miembros de nuestra comunidad pueden presentar sus experiencias y conexiones con sus lugares de origen. Buscamos que te sientas como en casa y que compartas tu perspectiva única con nosotros. #Sprint5
 
 3. HTML, CSS, @mediaquery, GitHub Pages, Grid, Pointer, NFT.
 
